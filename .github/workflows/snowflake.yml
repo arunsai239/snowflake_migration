@@ -27,7 +27,7 @@ jobs:
 
       - name: Run schemachange
         env:
-          SF_ACCOUNT: ${{ secrets.SF27076 }}
+          SF_ACCOUNT: ${{ secrets.cnuohfc-sf27076 }}
           SF_USERNAME: ${{ secrets.Arun }}
           SF_ROLE: ${{ secrets.ACCOUNTADMIN }}
           SF_WAREHOUSE: ${{ secrets.COMPUTE_WH }}
